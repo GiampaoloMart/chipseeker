@@ -43,7 +43,7 @@ RUN R -e "BiocManager::install('Rhtslib', ask = FALSE, verbose = TRUE)" && \
     R -e "BiocManager::install('Rsamtools', ask = FALSE, verbose = TRUE)" && \
     R -e "BiocManager::install('GenomicAlignments', ask = FALSE, verbose = TRUE)" && \
     R -e "BiocManager::install('rtracklayer', ask = FALSE, verbose = TRUE)" && \
-    R -e "BiocManager::install('scDblFinder', ask = FALSE, verbose = TRUE)" \
+    R -e "BiocManager::install('scDblFinder', ask = FALSE, verbose = TRUE)" && \
     R -e "BiocManager::install('ChIPseeker', ask = FALSE, verbose = TRUE)"
 
 # Expose RStudio port
