@@ -1,4 +1,4 @@
-ROM ghcr.io/giampaolomart/rstudio_docker:nightly
+FROM ghcr.io/giampaolomart/rstudio_docker:nightly
 
 # Switch to root to install system dependencies
 USER root
